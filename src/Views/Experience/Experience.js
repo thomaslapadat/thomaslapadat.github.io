@@ -5,12 +5,23 @@ import './Experience.css';
 export default class Experience extends Component {
     render() {
         return (
-            <div className="Experience">
+            <div className="experience">
                 <h1>Experience</h1>
-                <p>I am a <span>Software Developer</span> that likes to build <span>full-stack applications</span> with a preference for backend APIs and database management.
-                    <br></br>
-                    <br></br>
-                    I am completing a <span>BASc in Computer Engineering</span> at the <span>University of British Columbia</span>. I enjoy skiing, playing volleyball, investing in stocks, and playing competitive video games.</p>
+                <div className="card">
+                    <h2>UBC Launchpad</h2>
+                    <p>September 2020 - Present</p>
+                    <p>I'm baby yr taiyaki messenger bag helvetica. Iceland XOXO lyft pok pok kale chips. Brooklyn food truck succulents chartreuse master cleanse umami. Hell of wolf umami schlitz cronut bicycle rights letterpress lyft.</p>
+                </div>
+                <div className="card">
+                    <h2>UBC Launchpad</h2>
+                    <p>September 2020 - Present</p>
+                    <p>Vice mustache copper mug asymmetrical brooklyn, aesthetic hashtag helvetica la croix fam bespoke chambray narwhal. Cray messenger bag gentrify DIY vaporware yr. Skateboard cornhole occupy hexagon, austin church-key normcore salvia VHS tumeric.</p>
+                </div>
+                <div className="card">
+                    <h2>UBC Launchpad</h2>
+                    <p>September 2020 - Present</p>
+                    <p>I'm baby yr taiyaki messenger bag helvetica. Iceland XOXO lyft pok pok kale chips. Brooklyn food truck succulents chartreuse master cleanse umami.Skateboard cornhole occupy hexagon, austin church-key normcore salvia VHS tumeric.</p>
+                </div>
             </div>
         )
     }
