@@ -1,5 +1,5 @@
 .experience {
-    background-color: darkturquoise;
+    background-image: linear-gradient(0deg, rgba(140,52,34,1) 0%, rgba(255,152,64,1) 42%, rgba(19,30,34,1) 100%);
     color: white;
     
     display: flex;
