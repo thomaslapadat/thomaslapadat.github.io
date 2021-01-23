@@ -1,0 +1,40 @@
+.about {
+    padding: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+
+    background-color:darkslategray;
+}
+
+.about h1 {
+    align-self: center;
+    /* background-color: red; */
+}
+
+.about p {
+    max-width: 1000px;
+    align-self: center;
+}
+
+.about p span {
+    color: orange;
+    font-size: 1.05em;
+}
+
+.skills {
+    background-color: darkslategray;
+    height: 200px;
+
+    color: white;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.skills .category h3 {
+    margin: 0px;
+}

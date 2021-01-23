@@ -1,0 +1,42 @@
+.header {
+    margin: 0;
+    padding: 0;
+    background-color: darkred;
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 600px;
+}
+
+.header .name {
+    align-self: center;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.header .icons {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.header .icons a {
+    font-size: 1.8em;
+    margin: 20px 10px;
+}
+
+.header .icons a:hover {
+    color: orange;
+}
