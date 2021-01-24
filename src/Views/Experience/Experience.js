@@ -9,18 +9,27 @@ export default class Experience extends Component {
                 <h1>Experience</h1>
                 <div className="card">
                     <h2>UBC Launchpad</h2>
-                    <p>September 2020 - Present</p>
-                    <p>I'm baby yr taiyaki messenger bag helvetica. Iceland XOXO lyft pok pok kale chips. Brooklyn food truck succulents chartreuse master cleanse umami. Hell of wolf umami schlitz cronut bicycle rights letterpress lyft.</p>
+                    <p className="timerange">September 2020 - Present</p>
+                    <p className="card-body">UBC Launchpad is a team of student software developers that collaborate to build full-stack applications.
+                    <br></br>
+                    <br></br>
+                    My team is developing a web-application to help other student teams manage their applicants and streamline the annual recruitment process. I developed our project's backend API using Node, Express, and Postman, while updating functional React components on the front-end.</p>
                 </div>
                 <div className="card">
-                    <h2>UBC Launchpad</h2>
-                    <p>September 2020 - Present</p>
-                    <p>Vice mustache copper mug asymmetrical brooklyn, aesthetic hashtag helvetica la croix fam bespoke chambray narwhal. Cray messenger bag gentrify DIY vaporware yr. Skateboard cornhole occupy hexagon, austin church-key normcore salvia VHS tumeric.</p>
+                    <h2>UBC Teaching Assistant (APSC 160)</h2>
+                    <p className="timerange">September 2020 - December 2020</p>
+                    <p className="card-body">APSC 160 is my University's introductory programming course taken by all the first-year students in the Engineering program.
+                    <br></br>
+                    <br></br>
+                    I had the opportunity to work directly with the students by helping them debug their C projects and providing feedback on improving the quality of their code. I also graded project/exam submissions and invigilated online assessments via Zoom.</p>
                 </div>
                 <div className="card">
-                    <h2>UBC Launchpad</h2>
-                    <p>September 2020 - Present</p>
-                    <p>I'm baby yr taiyaki messenger bag helvetica. Iceland XOXO lyft pok pok kale chips. Brooklyn food truck succulents chartreuse master cleanse umami.Skateboard cornhole occupy hexagon, austin church-key normcore salvia VHS tumeric.</p>
+                    <h2>Change Healthcare (McKesson)</h2>
+                    <p className="timerange"projects>April 2019 - April 2020</p>
+                    <p className="card-body">Change Healthcare is a technology company that provides software solutions to help healthcare systems cut costs and enhance employee productivity.
+                    <br></br>
+                    <br></br>
+                    Within the Radiology division, I wrote automation scripts in Windows Batch and designed a performance monitoring solution using a collection of open-source tools.</p>
                 </div>
             </div>
         )

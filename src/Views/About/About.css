@@ -8,12 +8,13 @@
 
 .about h1 {
     align-self: center;
-    /* background-color: red; */
+    font-size: 3em;
 }
 
 .about .content {
     display: flex;
     justify-content: center;
+    line-height: 1.6;
 }
 
 .about .content p {
@@ -42,7 +43,6 @@
 .skills {
     color: white;
     padding-bottom: 70px;
-    /* background-color: red; */
     width: 100%;
     max-width: 1000px;
 
@@ -61,4 +61,19 @@
 .skills .category h3 {
     font-size: 1.7em;
     margin: 18px 0px;
+}
+
+/* For Mobile devices */
+@media only screen and (max-width: 800px) {
+    .about h1 {
+        font-size: 2em;
+    }
+    
+    .about .content p {
+        padding-right: 0px;
+    }
+
+    .about .content img {
+        display: none;
+    }
 }

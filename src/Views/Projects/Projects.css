@@ -1,6 +1,36 @@
 .projects {
     text-align: center;
-    padding: 30px 0px;
-    background-color: slategray;
+    padding: 20px 0px 40px;
+    background-color: #131e22;
     color: white;
+}
+
+.projects .gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projects .project-item {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.projects .project-item:hover {
+    box-shadow: 0px 4px 10px black;
+}
+
+.projects .project-item h2 {
+    background-color: rgb(196, 127, 0);
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.projects .item1 {
+    background-image: url('../../Assets/cyberduck.jpeg');
+    background-size: cover;
 }
