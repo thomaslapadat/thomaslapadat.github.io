@@ -10,7 +10,6 @@ import './About.css';
 export default class About extends Component {
     render() {
         return (
-            // Not ideal, but saves some a decent chunk of time
             <div>
                 <div className="about">
                     <h1>About</h1>

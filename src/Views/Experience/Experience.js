@@ -21,7 +21,7 @@ export default class Experience extends Component {
                     <p className="card-body">APSC 160 is my University's introductory programming course taken by all the first-year students in the Engineering program.
                     <br></br>
                     <br></br>
-                    I had the opportunity to work directly with the students by helping them debug their C projects and providing feedback on improving the quality of their code. I also graded project/exam submissions and invigilated online assessments via Zoom.</p>
+                    I had the opportunity to work directly with the students by helping them debug their C projects and providing feedback to improve the quality of their code. I also graded project/exam submissions and invigilated online assessments via Zoom.</p>
                 </div>
                 <div className="card">
                     <h2>Change Healthcare (McKesson)</h2>
