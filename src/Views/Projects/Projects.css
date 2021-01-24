@@ -21,6 +21,11 @@
     overflow: hidden;
 }
 
+.projects .project-item a {
+    color: white;
+    text-decoration: none;
+}
+
 .projects .project-item:hover {
     box-shadow: 0px 4px 10px black;
 }
