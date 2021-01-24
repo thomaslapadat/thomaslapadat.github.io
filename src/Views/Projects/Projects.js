@@ -29,7 +29,7 @@ export default class Projects extends Component {
                         </a>
                     </div>
                     <div className="project-item item4">
-                        <a href="https://github.com/thomaslapadat/personal-website">
+                        <a href="https://github.com/thomaslapadat/Personal-Website">
                             <h2>Website Porfolio</h2>
                             <img src={webicon} alt="Web Portfolio"></img>
                         </a>
