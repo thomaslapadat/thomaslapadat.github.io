@@ -9,7 +9,7 @@ export default class Experience extends Component {
                 <h1>Experience</h1>
                 <div className="card">
                     <h2>UBC Launchpad</h2>
-                    <p className="timerange">September 2020 - Present</p>
+                    <p className="timerange">September 2020 - April 2021</p>
                     <p className="card-body">UBC Launchpad is a team of student software developers that collaborate to build full-stack applications.
                     <br></br>
                     <br></br>

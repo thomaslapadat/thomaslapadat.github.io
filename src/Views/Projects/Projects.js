@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 // import cyberduck from '../../Assets/cyberduck.jpeg';
 import quickpick from '../../Assets/quickpick.svg';
-import recruitcare from '../../Assets/recruitcare.png';
-import webicon from '../../Assets/webicon.svg';
+import hireflow from '../../Assets/hireflow.png';
+import battlechip from '../../Assets/battlechipui.png';
 
 import './Projects.css';
 
@@ -24,14 +24,14 @@ export default class Projects extends Component {
                     </div>
                     <div className="project-item item3">
                         <a href="https://github.com/ubclaunchpad/club-manager-server">
-                            <h2>RecruitCare</h2>
-                            <img src={recruitcare} alt="Recruit App"></img>
+                            <h2>HireFlow</h2>
+                            <img src={hireflow} alt="HireFlow"></img>
                         </a>
                     </div>
                     <div className="project-item item4">
-                        <a href="https://github.com/thomaslapadat/Personal-Website">
-                            <h2>Website Porfolio</h2>
-                            <img src={webicon} alt="Web Portfolio"></img>
+                        <a href="https://github.com/Codename-NF/BattleChip">
+                            <h2>BattleChip FPGA Game</h2>
+                            <img src={battlechip} alt="Web Portfolio"></img>
                         </a>
                     </div>
                 </div>
