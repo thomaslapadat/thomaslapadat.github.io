@@ -1,7 +1,7 @@
 .header {
     margin: 0;
     padding: 0;
-    background-image: url('../../Assets/burrard_bridge.jpg');
+    background-image: url('../../Assets/burrard_bridge_dark.jpg');
     background-size: 1920px;
     background-position: 50% 65%;
     color: white;
@@ -11,6 +11,7 @@
     justify-content: center;
     
     height: 800px;
+    position: relative;
 }
 
 .header .name {
@@ -49,19 +50,57 @@
     color: orange;
 }
 
-#arrow a span {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 24px;
-    height: 24px;
-    margin-left: -12px;
-    border-left: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    box-sizing: border-box;
-  }
+.arrows {
+	width: 60px;
+	height: 80px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 80px;
+}
+
+.arrows path {
+	stroke: white;
+	fill: transparent;
+	stroke-width: 5px;	
+	animation: arrow 3s infinite;
+	-webkit-animation: arrow 3s infinite; 
+}
+
+@keyframes arrow
+{
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+}
+
+.arrows path.a1 {
+    stroke: white;
+	animation-delay:-1.5s;
+	-webkit-animation-delay:-1.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+    stroke: hsl(39, 95%, 74%);
+	animation-delay:-0.75s;
+	-webkit-animation-delay:-0.75s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+    stroke: rgb(255, 187, 60);
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+  
 
 @media only screen and (max-width: 800px) {
     .header {
@@ -69,9 +108,15 @@
     }
     
     .header h1 {
-        font-size: 2.5em;
+        font-size: 3em;
         background-image: radial-gradient(rgba(0, 0, 0, .7) 0%, rgba(0,0,0,0) 100%);
     }
-}
+    
+    .header h2 {
+        font-size: 1.7em;
+    }
 
-  
+    .arrows {
+        bottom: 30px;
+    }
+}

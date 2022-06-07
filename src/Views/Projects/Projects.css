@@ -5,6 +5,12 @@
     color: white;
 }
 
+.projects h1 {
+    margin: 40px 0px 20px 0px;
+    /* text-shadow: 0px 4px 10px #000000be; */
+    font-size: 3em;
+}
+
 .projects .gallery {
     display: flex;
     flex-direction: row;

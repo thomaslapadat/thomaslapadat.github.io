@@ -1,7 +1,7 @@
 .experience {
-    background-image: url('../../Assets/whistler.jpeg');
+    background-image: url('../../Assets/whistler_dark.jpg');
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -31,6 +31,11 @@
 .experience .card h2 {
     font-size: 1.5em;
     margin: 10px 0px;
+}
+
+.experience .card a {
+    text-decoration: none;
+    color: skyblue;
 }
 
 .experience .card .timerange {

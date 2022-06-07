@@ -11,7 +11,7 @@ export default class Projects extends Component {
     render() {
         return (
             <div className="projects">
-                <h1>Projects</h1>
+                <h1>&#123; Projects &#125;</h1>
                 <div className="gallery">
                     {/* <div className="project-item item1">
                         <h2>Dancing Robot</h2>
