@@ -6,7 +6,7 @@
     /* background-color: green; */
     align-items: center;
 
-    padding: 0px 50px;
+    padding: 0px 80px;
 }
 
 .about h1 {
@@ -42,7 +42,7 @@
 }
 
 .about2 {
-    padding: 50px;
+    padding: 0px 50px;
     background-color: #131e22;
     /* background-color: #2b748f; */
     display: flex;
@@ -66,7 +66,8 @@
     /* background-color: red; */
     /* margin: 20px 40px; */
     text-align: left;
-    /* padding: 20px; */
+    padding: 30px;
+    padding-left: 0px;
 }
 
 .skills .category h3 {
@@ -91,10 +92,21 @@
     text-align: left;
     font-size: 1.4em;
     padding: 5px 0px;
+    color:hsl(39, 100%, 85%);
+}
+
+.skills .category ul li:nth-child(2n){
+    color:white;
 }
 
 /* For Mobile devices */
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1367px) {
+    .skills {
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
     .about h1 {
         font-size: 2em;
     }
@@ -105,5 +117,9 @@
 
     .about .content img {
         display: none;
+    }
+
+    .skills {
+        justify-content: flex-start;
     }
 }
