@@ -1,31 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.34ba2199.chunk.css",
-    "main.js": "/static/js/main.9736e02d.chunk.js",
-    "main.js.map": "/static/js/main.9736e02d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.33fe76e9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.33fe76e9.js.map",
-    "static/js/2.deba45c9.chunk.js": "/static/js/2.deba45c9.chunk.js",
-    "static/js/2.deba45c9.chunk.js.map": "/static/js/2.deba45c9.chunk.js.map",
-    "static/js/3.f584cce3.chunk.js": "/static/js/3.f584cce3.chunk.js",
-    "static/js/3.f584cce3.chunk.js.map": "/static/js/3.f584cce3.chunk.js.map",
+    "main.css": "/static/css/main.762c6d1b.chunk.css",
+    "main.js": "/static/js/main.9977b51a.chunk.js",
+    "main.js.map": "/static/js/main.9977b51a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.beedf843.js",
+    "runtime-main.js.map": "/static/js/runtime-main.beedf843.js.map",
+    "static/js/2.9bf88480.chunk.js": "/static/js/2.9bf88480.chunk.js",
+    "static/js/2.9bf88480.chunk.js.map": "/static/js/2.9bf88480.chunk.js.map",
+    "static/js/3.6bd94054.chunk.js": "/static/js/3.6bd94054.chunk.js",
+    "static/js/3.6bd94054.chunk.js.map": "/static/js/3.6bd94054.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.34ba2199.chunk.css.map": "/static/css/main.34ba2199.chunk.css.map",
-    "static/js/2.deba45c9.chunk.js.LICENSE.txt": "/static/js/2.deba45c9.chunk.js.LICENSE.txt",
-    "static/media/Tux_Mono.a3d30687.svg": "/static/media/Tux_Mono.a3d30687.svg",
+    "static/css/main.762c6d1b.chunk.css.map": "/static/css/main.762c6d1b.chunk.css.map",
+    "static/js/2.9bf88480.chunk.js.LICENSE.txt": "/static/js/2.9bf88480.chunk.js.LICENSE.txt",
+    "static/media/TrustNetwork.9348639f.png": "/static/media/TrustNetwork.9348639f.png",
     "static/media/battlechipui.792af524.png": "/static/media/battlechipui.792af524.png",
-    "static/media/Header.css": "/static/media/burrard_bridge.b8856e49.jpg",
-    "static/media/frameworks.00d08e6d.svg": "/static/media/frameworks.00d08e6d.svg",
-    "static/media/hireflow.c478952c.png": "/static/media/hireflow.c478952c.png",
-    "static/media/languages.a5a5d6db.svg": "/static/media/languages.a5a5d6db.svg",
-    "static/media/quickpick.08e5ccfd.svg": "/static/media/quickpick.08e5ccfd.svg",
-    "static/media/tools.63c42bae.svg": "/static/media/tools.63c42bae.svg",
-    "static/media/Experience.css": "/static/media/whistler.c2e1fa40.jpeg"
+    "static/media/Header.css": "/static/media/burrard_bridge_dark.a439ab2f.jpg",
+    "static/media/hireflo_project.00eef61e.png": "/static/media/hireflo_project.00eef61e.png",
+    "static/media/Contact.css": "/static/media/lionsgate.ed83991a.jpg",
+    "static/media/quickpick_menu.48f55b3d.png": "/static/media/quickpick_menu.48f55b3d.png",
+    "static/media/self_portrait.a427bf03.jpg": "/static/media/self_portrait.a427bf03.jpg",
+    "static/media/Experience.css": "/static/media/whistler.b3b8cf0d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.33fe76e9.js",
-    "static/js/2.deba45c9.chunk.js",
-    "static/css/main.34ba2199.chunk.css",
-    "static/js/main.9736e02d.chunk.js"
+    "static/js/runtime-main.beedf843.js",
+    "static/js/2.9bf88480.chunk.js",
+    "static/css/main.762c6d1b.chunk.css",
+    "static/js/main.9977b51a.chunk.js"
   ]
 }
