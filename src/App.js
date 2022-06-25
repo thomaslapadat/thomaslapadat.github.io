@@ -5,6 +5,7 @@ import About from './Views/About/About';
 import Experience from './Views/Experience/Experience';
 import Projects from './Views/Projects/Projects';
 import Footer from './Views/Footer/Footer';
+import Contact from './Views/Contact/Contact';
 
 /* Top-level of the application */
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );

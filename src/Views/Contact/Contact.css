@@ -1,0 +1,99 @@
+.contact {
+    background-image: url('../../Assets/lionsgate.jpg');
+    background-position: center;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 60px 0px 100px 0px;
+    margin: 0px;
+}
+
+.contactContent {
+    background-color: #131e22;
+
+    margin: 0px 40px;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-radius: 30px;
+}
+
+.contactContent h1 {
+    margin: 30px 0px 10px 0px;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+}
+
+.contactInfo {
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    /* background-color: #1d2b30; */
+}
+
+.contactText {
+    max-width: 800px;
+    font-size: 1.2em;
+    margin: 0px 40px;
+}
+
+.contactText a {
+    text-decoration: none;
+    font-weight: 550;
+    color: skyblue;
+}
+
+.contactText a:hover {
+    color: rgb(165, 224, 248);
+}
+
+.contactText span {
+    color: orange;
+}
+
+.contactContent ul {
+    margin: 20px 50px;
+}
+
+.contactContent ul li a {
+    text-decoration: none;
+    color: hsl(39, 100%, 85%);
+}
+
+.contactContent ul li {
+    list-style: none;
+    text-align: left;
+    font-size: 1.2em;
+    padding: 5px 0px;
+    color: hsl(39, 100%, 85%);
+}
+
+
+
+.contactContent ul li:nth-child(2n) {
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .contactInfo {
+        flex-direction: column;
+    }
+
+    .contactContent ul {
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .contactContent h1 {
+        font-size: 1.9em;
+    }
+    
+    .contactContent {
+        padding: 10px;
+    }
+}

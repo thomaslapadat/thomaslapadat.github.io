@@ -1,6 +1,12 @@
 .footer {
     text-align: center;
-    padding: 10px 0px;
-    background-color: rgb(87, 87, 87);
-    color: white;
+    padding: 15px 0px;
+    background-color: #131e22;
+    color: rgb(207, 207, 207);
+}
+
+.footer h2 {
+    margin: 0px;
+    font-size: 1em;
+    font-weight: 400;
 }

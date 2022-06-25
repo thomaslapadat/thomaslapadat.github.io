@@ -1,5 +1,5 @@
 .experience {
-    background-image: url('../../Assets/whistler_dark.jpg');
+    background-image: url('../../Assets/whistler.jpg');
     background-position: center;
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
@@ -15,13 +15,13 @@
 
 .experience h1 {
     margin: 40px 0px 20px 0px;
-    text-shadow: 0px 4px 10px #000000be;
-    font-size: 3em;
+    font-size: 2.5em;
+    text-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
 }
 
 .experience .card {
     background-color: #131e22;
-    max-width: 800px;
+    max-width: 1100px;
     padding: 20px 40px;
     margin: 20px;
     border-radius: 20px;
@@ -38,6 +38,10 @@
     color: skyblue;
 }
 
+.experience .card a:hover {
+    color: rgb(165, 224, 248);
+}
+
 .experience .card .timerange {
     color: orange;
     font-style: italic;
@@ -49,8 +53,8 @@
     font-size: 1.2em;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 680px) {
     .experience h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 }
