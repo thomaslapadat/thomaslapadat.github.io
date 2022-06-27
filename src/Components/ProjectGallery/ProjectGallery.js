@@ -32,7 +32,7 @@ export default class ProjectGallery extends React.Component {
                 </div>
                 <div className='projectItem'>
                     <div className='projectInfo'>
-                        <h2>Hireflo - Club Recruitment Web-app (Software Dev. Club Project)</h2>
+                        <h2>Hireflow - Club Recruitment Web-app (Software Dev. Club Project)</h2>
                         <p><span>Problem:</span> In recent years, UBC Launchpad (our University's software development club) receives 150+ applicants annually. The current process for onboarding the applicants is tedious and involves many manual, error-prone tasks.</p>
                         <p><span>Description:</span> Our subteam built a browser application to streamline the recruitment process. The application provides a dashboard to view different applicants at various stages throughout the recruitment pipeline. Automatic email notifications are sent to applicants to inform them of any updates to their recruitment status.</p>
                         <p><a href='http://hireflow.ubclaunchpad.com/' target="_blank" rel="noreferrer">[Click to view the project demo]</a></p>

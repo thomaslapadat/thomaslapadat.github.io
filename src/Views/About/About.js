@@ -40,15 +40,15 @@ export default class About extends Component {
                                 <li><span class="fa-li"><FontAwesomeIcon icon={faComputer} /></span>- Operating Systems</li>
                                 <li><span class="fa-li"><FontAwesomeIcon icon={faCalculator} /></span>- Statistics</li>
                             </ul>
-                            <div className="subCategory">
-                                <h4>/* Commerce Minor */</h4>
-                                <ul class="fa-ul">
-                                    <li><span class="fa-li"><FontAwesomeIcon icon={faPiggyBank} /></span>- Economics</li>
-                                    <li><span class="fa-li"><FontAwesomeIcon icon={faChartLine} /></span>- Finance</li>
-                                    <li><span class="fa-li"><FontAwesomeIcon icon={faScaleBalanced} /></span>- Accounting</li>
-                                    <li><span class="fa-li"><FontAwesomeIcon icon={faTags} /></span>- Marketing</li>
-                                </ul>
-                            </div>
+
+                            <h4>/* Commerce Minor */</h4>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><FontAwesomeIcon icon={faPiggyBank} /></span>- Economics</li>
+                                <li><span class="fa-li"><FontAwesomeIcon icon={faChartLine} /></span>- Finance</li>
+                                <li><span class="fa-li"><FontAwesomeIcon icon={faScaleBalanced} /></span>- Accounting</li>
+                                <li><span class="fa-li"><FontAwesomeIcon icon={faTags} /></span>- Marketing</li>
+                            </ul>
+
                         </div>
                         <div className="category">
 

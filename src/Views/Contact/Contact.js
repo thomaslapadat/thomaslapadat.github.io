@@ -14,7 +14,7 @@ export default class Contact extends Component {
                     <h1>&#123; Contact &#125;</h1>
                     <div className="contactInfo">
                         <div className="contactText">
-                            <p >Thanks for checking out my website! If you would like to get in touch, my <span>contact info</span> is listed here on the right.</p>
+                            <p >Thanks for checking out my website! If you would like to get in touch, my <span>contact info</span> is listed <span className="dynamic1">on the right</span><span className="dynamic2">below</span>.</p>
                             <p> Feel free to <span>click the link</span> below if you would like a copy of my resume:</p>
                             <span class="fa-li"><FontAwesomeIcon icon={faFile} /></span><a href='https://drive.google.com/file/d/1aMde2Xcijlp-I0Z1FD1XsJpmd_oSCGCh/view?usp=sharing' target="_blank" rel="noreferrer">[Click to check out my resume]</a>
                         </div>

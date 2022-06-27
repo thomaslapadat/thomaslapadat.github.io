@@ -56,6 +56,16 @@
     color: orange;
 }
 
+.contactContent .dynamic1 {
+    display: inline;
+    color: white;
+}
+
+.contactContent .dynamic2 {
+    display: none;
+    color: white;
+}
+
 .contactContent ul {
     margin: 20px 50px;
 }
@@ -84,6 +94,14 @@
         flex-direction: column;
     }
 
+    .contactContent .dynamic1 {
+        display: none;
+    }
+
+    .contactContent .dynamic2 {
+        display: inline;
+    }
+
     .contactContent ul {
         padding-left: 20px;
     }
@@ -95,5 +113,9 @@
     
     .contactContent {
         padding: 10px;
+    }
+
+    .contactContent ul li {
+        font-size: 1em;
     }
 }
