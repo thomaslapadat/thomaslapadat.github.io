@@ -20,8 +20,8 @@ export default class Contact extends Component {
                         </div>
 
                         <ul class="fa-ul">
-                            <li><span class="fa-li"><FontAwesomeIcon icon={faPhone} /></span> thomaslapadat@gmail.com</li>
-                            <li><span class="fa-li"><FontAwesomeIcon icon={faEnvelope} /></span>(604)-720-7410</li>
+                            <li><span class="fa-li"><FontAwesomeIcon icon={faEnvelope} /></span> thomaslapadat@gmail.com</li>
+                            <li><span class="fa-li"><FontAwesomeIcon icon={faPhone} /></span>(604)-720-7410</li>
                             <li><span class="fa-li"><FontAwesomeIcon icon={faLinkedin} /></span><a href='https://www.linkedin.com/in/thomaslapadat/' target="_blank" rel="noreferrer">thomaslapadat</a></li>
                         </ul>
                         
