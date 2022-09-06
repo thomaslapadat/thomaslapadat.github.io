@@ -75,6 +75,7 @@ export default class About extends Component {
                                     <li><span class="fa-li"><FontAwesomeIcon icon={faPython} /></span>- Python</li>
                                     <li><span class="fa-li"><FontAwesomeIcon icon={faC} /></span>- C/C++</li>
                                     <li><span class="fa-li"><FontAwesomeIcon icon={faJsSquare} /></span>- JavaScript</li>
+                                    <li><span class="fa-li"><FontAwesomeIcon icon={faDatabase} /></span>- SQL</li>
                                 </ul>
                             </div>
                         </div>
